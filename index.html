@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CMGPA_calculator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,600;1,700&display=swap" rel="stylesheet">
+	<style>
+		button
+        {
+            background-color: rgb(250, 6, 6);
+			margin-left: 5px;
+			margin-right: 5px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+		}
+	</style>
+</head>
+<body style="background-image: linear-gradient(to right,black,black);">
+	<div style="background: linear-gradient(to bottom,white,white);width: 50%;text-align: center;border-radius: 10px;position: relative;left: 50%;transform: translate(-50%,0%);border:solid black 5px;box-shadow: 1px 1px 2px whitesmoke, 0 0 25px red, 0 0 5px darkslateblue;margin: 20px;">
+		<h1>CGPA CALCULATOR</h1>
+		<p>ADA: </p><p id="m">__</p>
+		<button class="btn m" id="mex">A</button><button class="btn m" id="ma" >-A</button><button class="btn m" id="mb">B</button><button class="btn m" id="mc">-B</button><button class="btn m" id="md">C</button><br>
+		<p>T3-maths: </p><p id="c">_</p>
+		<button class="btn c" id="cex">A</button><button class="btn c" id="ca">-A</button><button class="btn c" id="cb">B</button><button class="btn c" id="cc">-B</button><button class="btn c" id="cd">C</button><br>
+		<p>Python: </p><p id="e">_</p>
+		<button class="btn e" id="eex">A</button><button class="btn e" id="ea">-A</button><button class="btn e" id="eb">B</button><button class="btn e" id="ec">-B</button><button class="btn e" id="ed">C</button><br>
+		<p>DBMS: </p><p id="eng">_</p>
+		<button class="btn eng" id="engex">A</button><button class="btn eng" id="enga">-A</button><button class="btn eng" id="engb">B</button><button class="btn eng" id="engc">-B</button><button class="btn eng" id="engd">C</button><br>
+		<p>COA: </p><p id="ml">_</p>
+		<button class="btn ml" id="mlex">A</button><button class="btn ml" id="mla">-A</button><button class="btn ml" id="mlb">B</button><button class="btn ml" id="mlc">-B</button><button class="btn ml" id="mld">C</button><br>
+		<p>TOC: </p><p id="cl">_</p>
+		<button class="btn cl" id="clex">A</button><button class="btn cl" id="cla">-A</button><button class="btn cl" id="clb">B</button><button class="btn cl" id="clc">-B</button><button class="btn cl" id="cld">C</button><br>
+		<p>slef-assessment (kitna ukhad liya hai is sem me): </p><p id="el">_</p>
+		<button class="btn el" id="elex">A</button><button class="btn el" id="ela">-A</button><button class="btn el" id="elb">B</button><button class="btn el" id="elc">-B</button><button class="btn el" id="eld">C</button><br>
+		<button id="sub" class="btn" style="background-color:green;">submit </button>
+	</div>
+	<h1 id="abc" style="position: fixed;top: 0px;left: 50%;transform: translate(-50%,0%);border-radius: 5px; padding: 10px;"></h1>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="hello.js"></script>
+</body>
+</html>
